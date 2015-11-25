@@ -1348,3 +1348,8 @@ restangular.provider('Restangular', function() {
 });
 
 })();
+
+if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports){
+ var _ = require('lodash');
+ module.exports = 'restangular';
+}
